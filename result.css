@@ -1,0 +1,199 @@
+*{margin:0; padding: 0; border: none; box-sizing: border-box;}
+
+body {
+    text-align: center;
+    align-items: center; justify-content: center;
+    font-style: italic;
+    font-family: 'SDSwaggerTTF';
+}
+
+#정커퀸색{
+    background: linear-gradient(-45deg, #ff7300, #ffee00); 
+    background-size: 400% 2000px; 
+    animation: gradient 5s ease infinite; 
+}
+#정커퀸{
+    background-image: url('영웅목록/정커퀸ENFJ.png');
+    background-position: 30% 100px;
+}
+
+#메이색{
+    background: linear-gradient(-45deg, #00bbff, #1e00ff); 
+    background-size: 400% 2000px; 
+    animation: gradient 5s ease infinite; 
+}
+#메이{
+    background-image: url('영웅목록/메이.png');
+    background-position: 40% 0%;
+}
+
+#윈스턴색{
+    background: linear-gradient(-45deg, #6c6c6c, #ffffff); 
+    background-size: 400% 2000px; 
+    animation: gradient 5s ease infinite; 
+}
+#윈스턴{
+    background-image: url('영웅목록/윈스.png');
+}
+
+#솜브라색{
+    background: linear-gradient(-45deg, #ff00d9, #8000ff); 
+    background-size: 400% 2000px; 
+    animation: gradient 5s ease infinite; 
+}
+#솜브라{
+    background-image: url('영웅목록/솜브라.png');
+}
+
+#라인하르트색{
+    background: linear-gradient(-45deg, #747474, #ffffff); 
+    background-size: 400% 2000px; 
+    animation: gradient 5s ease infinite; 
+}
+#라인하르트{
+    background-image: url('영웅목록/라인.png');
+}
+
+#디바색{
+    background: linear-gradient(-45deg, #ff0073, #ffffff); 
+    background-size: 400% 2000px; 
+    animation: gradient 5s ease infinite; 
+}
+#디바{
+    background-image: url('영웅목록/디바.png');
+}
+
+#솔저76색{
+    background: linear-gradient(-45deg, #ff9d00, #1100ff,#ff0000); 
+    background-size: 400% 2000px; 
+    animation: gradient 5s ease infinite; 
+}
+#솔저76{
+    background-image: url('영웅목록/게이.png');
+}
+
+#트레이서색{
+    background: linear-gradient(-45deg, #ff9d00, #ffffff,#ff0000); 
+    background-size: 400% 2000px; 
+    animation: gradient 5s ease infinite; 
+}
+#트레이서{
+    background-image: url('영웅목록/트레.png');
+}
+
+#젠야타색{
+    background: linear-gradient(-45deg, #646464, #ffffff,#ffee00); 
+    background-size: 400% 2000px; 
+    animation: gradient 5s ease infinite; 
+}
+#젠야타{
+    background-image: url('영웅목록/야타.png');
+}
+
+#바스티온색{
+    background: linear-gradient(-45deg, #ffa600,#62ff00); 
+    background-size: 400% 2000px; 
+    animation: gradient 5s ease infinite; 
+}
+#바스티온{
+    background-image: url('영웅목록/바스.png');
+}
+
+#모이라색{
+    background: linear-gradient(-45deg, #ae00ff, #0000008a,#fff700); 
+    background-size: 400% 2000px; 
+    animation: gradient 5s ease infinite; 
+}
+#모이라{
+    background-image: url('영웅목록/모이라.png');
+}
+
+#시그마색{
+    background: linear-gradient(-30deg, #009717, #0000008a,#000056); 
+    background-size: 400% 2000px; 
+    animation: gradient 5s ease infinite; 
+}
+#시그마{
+    background-image: url('영웅목록/시그마.png');
+}
+
+#메르시색{
+    background: linear-gradient(-30deg, #ff9100, #ffffff,#ffea00); 
+    background-size: 400% 2000px; 
+    animation: gradient 5s ease infinite; 
+}
+#메르시{
+    background-image: url('영웅목록/메르시.png');
+}
+
+#겐지색{
+    background: linear-gradient(-30deg, #22ff00, #ffffff); 
+    background-size: 400% 2000px; 
+    animation: gradient 3s ease infinite; 
+}
+#겐지{
+    background-image: url('영웅목록/겐지.png');
+}
+
+#위도우메이커색{
+    background: linear-gradient(-30deg, #8800ff, #000000); 
+    background-size: 400% 2000px; 
+    animation: gradient 3s ease infinite; 
+}
+#위도우메이커{
+    background-image: url('영웅목록/위도.png');
+}
+
+#레킹볼색{
+    background: linear-gradient(-30deg, #ffbf00, #4d99c9); 
+    background-size: 400% 2000px; 
+    animation: gradient 3s ease infinite; 
+}
+#레킹볼{
+    background-image: url('영웅목록/레킹볼.png');
+}
+
+a {
+    top : 30%;
+    width: 100%;
+    background-position: 50% 0%;
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 80%;
+    transform: translate(-50%,-50%);
+}
+
+h2 {
+    font-size: 60px;
+    background-color: #0088ff; 
+}
+
+main {
+    top: 60%;
+    position: absolute;
+    width: 100%;
+}
+h1 {
+    width: 100%;
+    font-size: 40px;
+    background-color: #ffffff;
+    padding: 10px; 
+}
+div {
+    width: 100%;
+    font-size: 30px;
+    background-color: #ee7752;
+    padding: 20px; 
+}
+
+
+@keyframes gradient { 
+    0%{ background-position: 0% 50%; } 
+    50%{ background-position: 100% 50%; } 
+    100% { background-position: 0% 50%; }
+ }
+
+ @font-face{
+    font-family: 'SDSwaggerTTF';
+    src: url(font/SDSwaggerTTF.ttf) format('truetype');
+}
