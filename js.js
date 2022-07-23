@@ -36,8 +36,14 @@ function startTest() {
 selE.addEventListener("click",selectE);
 function selectE () {
     result=result+'E';
-    secondPage.remove();
-    thirdPage.style.display ="block";
+    selE.classList.add('animate');
+
+    setTimeout(function () 
+    {
+        secondPage.remove();
+        thirdPage.style.display ="block";
+    } , 1000);
+
     console.log(result);
 }
 selI.addEventListener("click",selectI);
@@ -106,9 +112,9 @@ function whatResult() {
     else if(result ==='ISFJ'){ console.log('ISFJ'); location.href="ISFJ.html";}
     
     else if(result ==='INTP'){ console.log('INTP'); location.href="INTP.html";}
-    else if(result ==='INTF'){ console.log('INTF'); location.href="INTF.html";}
+    else if(result ==='INTJ'){ console.log('INTJ'); location.href="INTJ.html";}
     else if(result ==='INFP'){ console.log('INFP'); location.href="INFP.html";}
-    else if(result ==='INJF'){ console.log('INJF'); location.href="INJF.html";}
+    else if(result ==='INFJ'){ console.log('INFJ'); location.href="INFJ.html";}
 
     else if(result ==='ESTP'){ console.log('ESTP'); location.href="ESTP.html";}
     else if(result ==='ESTJ'){ console.log('ESTJ'); location.href="ESTJ.html";}
