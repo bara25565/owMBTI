@@ -11,7 +11,8 @@ body {
 
 #정커퀸색{
     background: linear-gradient(-45deg, #ff7300, #ffee00); 
-    
+    background-size: 400% 2000px; 
+    animation: gradient 5s ease infinite; 
 }
 #정커퀸{
     background-image: url('영웅목록/정커퀸ENFJ.png');

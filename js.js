@@ -28,30 +28,40 @@ let result = '';
 //메인화면
 start.addEventListener("click",startTest);
 function startTest() {
-    firstPage.style.display ="none";
-    secondPage.style.display ="block";
+    
+
+   start.classList.add('animate');
+    setTimeout(function () 
+    {
+        firstPage.style.display ="none";
+        secondPage.style.display ="block";
+    } , 1000);
 }
 
 //질문 1
 selE.addEventListener("click",selectE);
 function selectE () {
     result=result+'E';
-    selE.classList.add('animate');
 
+    selE.classList.add('animate');
     setTimeout(function () 
     {
         secondPage.remove();
         thirdPage.style.display ="block";
     } , 1000);
 
-    console.log(result);
 }
 selI.addEventListener("click",selectI);
 function selectI () {
     result=result+'I';
-    secondPage.remove();
-    thirdPage.style.display ="block";
-    console.log(result);
+
+    selI.classList.add('animate');
+    setTimeout(function () 
+    {
+        secondPage.remove();
+        thirdPage.style.display ="block";
+    } , 1000);
+ 
 }
 
 
@@ -59,50 +69,70 @@ function selectI () {
 selS.addEventListener("click",selectS);
     function selectS () {
         result=result+'S';
-        thirdPage.remove();
-        fourthPage.style.display ="block";
-        console.log(result);
-        }
+        selS.classList.add('animate');
+        setTimeout(function () 
+        {
+            thirdPage.remove();
+            fourthPage.style.display ="block";
+        } , 1000);
+    }
 selN.addEventListener("click",selectN);
     function selectN () {
         result=result+'N';
-        thirdPage.remove();
-        fourthPage.style.display ="block";
-        console.log(result);
-        }
+        selN.classList.add('animate');
+        setTimeout(function () 
+        {
+            thirdPage.remove();
+            fourthPage.style.display ="block";
+        } , 1000);
+    }
 
 //질문 3
-console.log(result);
 selF.addEventListener("click",selectF);
     function selectF () {
         result=result+'F';
-        fourthPage.remove();
-        fifthPage.style.display ="block";
-        console.log(result);
-        }
+        selF.classList.add('animate');
+        setTimeout(function () 
+        {
+            fourthPage.remove();
+            fifthPage.style.display ="block";
+        } , 1000);
+    }
 selT.addEventListener("click",selectT);
     function selectT () {
         result=result+'T';
-        fourthPage.remove();
-        fifthPage.style.display ="block";
-        console.log(result);
-        }
+        selT.classList.add('animate');
+        setTimeout(function () 
+        {
+            fourthPage.remove();
+            fifthPage.style.display ="block";
+        } , 1000);
+    }
 
 //질문 4
 selJ.addEventListener("click",selectJ);
     function selectJ () {
         result=result+'J';
-        fifthPage.remove();
-        console.log(result);
-        whatResult();
+        selJ.classList.add('animate');
+        setTimeout(function () 
+        {
+            fifthPage.remove();
+            whatResult();
+        } , 1000);
+        
     }
 selP.addEventListener("click",selectP);
     function selectP () {
         result=result+'P';
-        fifthPage.remove();
-        console.log(result);
-        whatResult();
+        selP.classList.add('animate');
+        setTimeout(function () 
+        {
+            fifthPage.remove();
+            whatResult();
+        } , 1000);
+        
     }
+
 
 function whatResult() {
     console.log('result : ')
