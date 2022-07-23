@@ -74,9 +74,9 @@ h1 {
 #question1{
     position: absolute;
    left: 50%;
-   top: 30%;
+   top: 40%;
    transform: translate(-50%,-50%);
-    
+   width: 300px;
 }
 
 .second .question {
