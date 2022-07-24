@@ -5,13 +5,13 @@ body {
     align-items: center; justify-content: center;
     font-style: italic;
     font-family: 'SDSwaggerTTF';
-    background-size: 400% 2000px; 
+    background-size: 400% 4000px; 
     animation: gradient 5s ease infinite; 
 }
 
 #정커퀸색{
     background: linear-gradient(-45deg, #ff7300, #ffee00); 
-    background-size: 400% 2000px; 
+    background-size: 400% 4000px; 
     animation: gradient 5s ease infinite; 
 }
 #정커퀸{
@@ -21,7 +21,7 @@ body {
 
 #메이색{
     background: linear-gradient(-45deg, #00bbff, #1e00ff); 
-    background-size: 400% 2000px; 
+    background-size: 400% 4000px; 
     animation: gradient 5s ease infinite; 
 }
 #메이{
@@ -31,7 +31,7 @@ body {
 
 #윈스턴색{
     background: linear-gradient(-45deg, #6c6c6c, #ffffff); 
-    background-size: 400% 2000px; 
+    background-size: 400% 4000px; 
     animation: gradient 5s ease infinite; 
 }
 #윈스턴{
@@ -40,7 +40,7 @@ body {
 
 #솜브라색{
     background: linear-gradient(-45deg, #ff00d9, #8000ff); 
-    background-size: 400% 2000px; 
+    background-size: 400% 4000px; 
     animation: gradient 5s ease infinite; 
 }
 #솜브라{
@@ -49,7 +49,7 @@ body {
 
 #라인하르트색{
     background: linear-gradient(-45deg, #747474, #ffffff); 
-    background-size: 400% 2000px; 
+    background-size: 400% 4000px; 
     animation: gradient 5s ease infinite; 
 }
 #라인하르트{
@@ -58,7 +58,7 @@ body {
 
 #디바색{
     background: linear-gradient(-45deg, #ff0073, #ffffff); 
-    background-size: 400% 2000px; 
+    background-size: 400% 4000px; 
     animation: gradient 5s ease infinite; 
 }
 #디바{
@@ -67,7 +67,7 @@ body {
 
 #솔저76색{
     background: linear-gradient(-45deg, #ff9d00, #1100ff,#ff0000); 
-    background-size: 400% 2000px; 
+    background-size: 400% 4000px; 
     animation: gradient 5s ease infinite; 
 }
 #솔저76{
@@ -76,7 +76,7 @@ body {
 
 #트레이서색{
     background: linear-gradient(-45deg, #ff9d00, #ffffff,#ff0000); 
-    background-size: 400% 2000px; 
+    background-size: 400% 4000px; 
     animation: gradient 5s ease infinite; 
 }
 #트레이서{
@@ -85,7 +85,7 @@ body {
 
 #젠야타색{
     background: linear-gradient(-45deg, #646464, #ffffff,#ffee00); 
-    background-size: 400% 2000px; 
+    background-size: 400% 4000px; 
     animation: gradient 5s ease infinite; 
 }
 #젠야타{
@@ -94,7 +94,7 @@ body {
 
 #바스티온색{
     background: linear-gradient(-45deg, #ffa600,#62ff00); 
-    background-size: 400% 2000px; 
+    background-size: 400% 4000px; 
     animation: gradient 5s ease infinite; 
 }
 #바스티온{
@@ -103,7 +103,7 @@ body {
 
 #모이라색{
     background: linear-gradient(-45deg, #ae00ff, #0000008a,#fff700); 
-    background-size: 400% 2000px; 
+    background-size: 400% 4000px; 
     animation: gradient 5s ease infinite; 
 }
 #모이라{
@@ -112,7 +112,7 @@ body {
 
 #시그마색{
     background: linear-gradient(-30deg, #009717, #0000008a,#000056); 
-    background-size: 400% 2000px; 
+    background-size: 400% 4000px; 
     animation: gradient 5s ease infinite; 
 }
 #시그마{
@@ -121,7 +121,7 @@ body {
 
 #메르시색{
     background: linear-gradient(-30deg, #ff9100, #ffffff,#ffea00); 
-    background-size: 400% 2000px; 
+    background-size: 400% 4000px; 
     animation: gradient 5s ease infinite; 
 }
 #메르시{
@@ -130,7 +130,7 @@ body {
 
 #겐지색{
     background: linear-gradient(-30deg, #22ff00, #ffffff); 
-    background-size: 400% 2000px; 
+    background-size: 400% 4000px; 
     animation: gradient 3s ease infinite; 
 }
 #겐지{
@@ -139,7 +139,7 @@ body {
 
 #위도우메이커색{
     background: linear-gradient(-30deg, #8800ff, #000000); 
-    background-size: 400% 2000px; 
+    background-size: 400% 4000px; 
     animation: gradient 3s ease infinite; 
 }
 #위도우메이커{
@@ -148,21 +148,21 @@ body {
 
 #레킹볼색{
     background: linear-gradient(-30deg, #ffbf00, #4d99c9); 
-    background-size: 400% 2000px; 
+    background-size: 400% 4000px; 
     animation: gradient 3s ease infinite; 
 }
 #레킹볼{
     background-image: url('영웅목록/레킹볼.png');
 }
 
-a {
-    top : 30%;
+h3{
+    top : -10%;
     width: 100%;
     background-position: 50% 0%;
     background-repeat: no-repeat;
     position: absolute;
     height: 80%;
-    transform: translate(-50%,-50%);
+    
 }
 
 h2 {
@@ -175,13 +175,15 @@ main {
     position: absolute;
     width: 100%;
 }
+
 h1 {
     width: 100%;
     font-size: 40px;
     background-color: #ffffff;
     padding: 10px; 
 }
-div {
+
+.describe {
     width: 100%;
     font-size: 30px;
     background-color: #ee7752;
