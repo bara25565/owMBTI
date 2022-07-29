@@ -8,24 +8,27 @@ body {
     font-family: 'SDSwaggerTTF';
     background: linear-gradient(-45deg, #ffffff, #ff9100); 
     background-size: 400% 1000%; 
-    animation: gradient 3s ease infinite; 
+    animation: gradient 5s ease infinite; 
 }
 @font-face{
     font-family: 'SDSwaggerTTF';
-    src: url(font/SDSwaggerTTF.ttf) format('truetype');
+    src: url(../font/SDSwaggerTTF.ttf) format('truetype');
 }
 
 
 .first{
     width: 100%;
     height: 1200px;
-    background-image: url('영웅목록/firstmercy.png');
+    background-image: url('../영웅목록/firstmercy.png');
     background-position: center -200px;  
     background-repeat : no-repeat;
     animation: fadein 1s;
 }
 
-
+#question0 {
+    animation: startpage 1s;
+    
+}
 
 @keyframes gradient { 
     0%{ background-position: 0% 50%; } 
@@ -48,21 +51,24 @@ h1 {
 
 
 
-@keyframes fadein {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
-}
+
 .question{
     text-align: center;
     position: relative;
     color: white;
     letter-spacing: 1px;
     animation: fadein 1s;
+    
 }
+
+.question div{
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.519);
+}
+
+.first .question{
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.519);
+}
+
 
 .first .question{
     top: 400px;
@@ -86,6 +92,11 @@ h1 {
    top: 200px;
    transform: translate(-50%,-50%);
    width: 300px;
+   animation: specialIcon 1.5s ease infinite;
+}
+
+#intro1 {
+    animation: startpage 1s;
 }
 
 .second .question {
@@ -105,13 +116,18 @@ h1 {
     
 }
 
-.animate{
-    animation: selected 1s;
+#bbang {
+    position: relative;
+    top: 2000px;
+    background-color: rgb(255, 0, 212);
 }
 
 
-
 /* 질문 2 */
+#intro2 {
+    animation: startpage 1s;
+}
+
 .third h1{
     font-size: 70px;
 }
@@ -139,20 +155,24 @@ h1 {
 
 /* 질문 3 */
 
+
 #question3-1{
     position: absolute;
     
     transform: translate(-50%,-50%);
     top: 20%;
     left: 50%;
+    animation: specialIcon2 1.5s ease infinite;
 }
 
 #question3-2{
     position: absolute;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%) scale(0.9);
     top: 30%;
     left: 50%;
     width: 400px;
+    animation: startpage3 1s ease;
+    
 }
 
 .fourth h1{
@@ -178,6 +198,9 @@ h1 {
 }
 
 /* 질문 4 */
+#intro4 {
+    animation: startpage 1s;
+}
 
 .fifth h1{
     font-size: 30px;
@@ -206,6 +229,50 @@ h1 {
     top: 30vh;
     left: 50%;
     width: 350px;
+    animation: specialIcon2 1.5s ease infinite;
+}
+
+/* 질문 5 */
+#intro5 {
+    animation: startpage 1s;
+}
+
+.sixth h1{
+    font-size: 40px;
+}
+
+#question5{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 30vh;
+    left: 50%;
+    width: 350px;
+    animation: specialIcon2 2s ease infinite;
+}
+
+.sixth .question {
+    top: 300px;
+    font-size: 50px;
+    background-clip: content-box;
+}
+
+.sixth .question div{
+    font-size: 30px;
+    margin: 20px;
+    background-color: #ee7752;
+    padding: 20px;
+}
+
+#sel-2{
+    background-color: #0088ff; 
+}
+
+#sel-3{
+    background-color: #505050; 
+}
+
+.animate{
+    animation: selected 1s ease;
 }
 
 @keyframes fadein {
@@ -227,4 +294,35 @@ h1 {
         transform: scale(1.5);
     }
 }
-/* 모바일 */
+
+@keyframes startpage {
+    from { 
+        top: -1000px;
+    }
+
+    to { 
+        top: 70px;
+    }
+}
+
+@keyframes startpage3 {
+    from { 
+        top: -500px;
+    }
+
+    to { 
+        top: 30%;
+    }
+}
+
+@keyframes specialIcon { 
+    0% { transform: translate(-50%,-50%);} 
+    50% { transform: translate(-50%,-50%) scale(1.2);}
+    100% { transform: translate(-50%,-50%);}
+ }
+
+ @keyframes specialIcon2 { 
+    0% { transform: translate(-50%,-50%) scale(0.9);} 
+    50% { transform: translate(-50%,-50%) scale(1);}
+    100% { transform: translate(-50%,-50%) scale(0.9);}
+ }
